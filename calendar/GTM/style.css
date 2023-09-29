@@ -1,0 +1,169 @@
+  	html{
+		height:100%;
+
+	}
+#container{
+width:300px;
+height:500px;
+}
+#bcontainer{
+width:80%;
+margin:10%;
+}
+body{
+	margin:0px;
+	background-color:#484f4f;
+	color:white;
+	height:100%;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+header{
+	background-color:#009999;
+	width:100%;
+	height:52px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-bottom:1px solid gray;
+}
+header h1 {
+	position:absolute;
+	margin-top: 10px;
+	left: 5%;
+	font-size: 28px;
+
+}
+.pssd {
+  width: 100%;
+  margin:0px auto;
+  color: White;
+  border-radius: 10px;
+  border:1px solid #626262;
+}
+
+.pssd h2{
+	color:white;
+	margin-top:0px;
+	font-size:12px;
+	width:100%;
+	float:left;
+display:inline;
+	  border-radius: 10px 10px 0px 0px;
+	 position: relative;
+	 background-color:#009999;
+}
+.pssd h2 p{
+	color:white;
+margin-left:10%
+}
+.pssd label {
+  margin-left: 0px;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+  color:gray;
+}
+.pssd input {
+  display: block;
+  padding: 5px 20px;
+  margin:0px auto;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.pssd button {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  background-color: #5b9291;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.pssd p{
+color:black;
+font-size:14px;
+padding:5px;
+}
+.pssd a{
+	float:right;
+	color:white;
+	padding:10px;
+	text-decoration:underline;
+}
+.logerror{
+	background:#e06377;
+	padding:10px;
+	border:1px solid red;
+	border-radius:5px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+    color:black;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+   color:black;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+nav{
+	position:absolute;
+	display:block;
+	top:-6px;
+left:140px;
+}
+nav ul{
+	position:relative;
+	list-style:none;
+	display:block;
+}
+nav ul li{
+	list-style-type:none;
+	padding:10px;
+	padding-left:15px;
+	display:block;
+	margin:0px;
+	float:left;
+}
+nav ul li:hover{
+	border-bottom:1px solid silver;
+	cursor:pointer;
+}
+.logoimg{
+width:40px;
+height:40px;
+margin-left:10px;
+margin-top:10px;
+position:absolute;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
