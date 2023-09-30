@@ -29,7 +29,9 @@ if (isset($_POST['formsubmit'])) {
 
     if (empty($error)){
         
-            $query = "INSERT INTO `posts` ( `title`, `type`, `duedate`, `duetime`, `details`, `userid`, `posttime`,`status`,`color`,`accessor`) VALUES ( '$stitle', '$stype', '$fsdate', '$stime', '$sdetails', '$suserid', '$stimestamp','$sstatus','$scolor','$saccessor')";
+            $query = "INSERT INTO `posts` ( `title`, `type`, `duedate`, `duetime`, `details`, `userid`, `posttime`,`status`,`color`,`accessor`,`project_id`) 
+            VALUES ( '$stitle', '$stype', '$fsdate', '$stime', '$sdetails', '$suserid', '$stimestamp','$sstatus','$scolor','$saccessor','0')";
+            
 
             $result = mysqli_query($connection, $query);
             echo "<script>window.location.assign(\"home.php\")</script>";     

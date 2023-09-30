@@ -74,7 +74,7 @@
 <header>
 <!-- Nav of the body -->
 <div class="lognav">
-	 <h3><span><img src="css/versety.png" class="logoimg" onclick="location.href='../index.php'"/></span></h3>
+	 <h3><span><img src="css/versety.png" alt="logo" class="logoimg" onclick="location.href='../index.php'"/></span></h3>
 	<!---<ul>
 		<!---<li class="nav_first" onclick="location.href='index.php'"><span class="text_red"><i>VERSETY</i></span></li>
 		<li class="nav_normal" onclick="location.href='../index.php'"><span class="icon-home"></span> Home</li>
@@ -98,7 +98,7 @@
 			<li onclick="location.href='projects.php'"><span class="icon-calendar"></span> Projects</li><hr/>
 			<li onclick="location.href='review.php'"><span class="icon-newspaper"></span> Forum</li>
 			<li onclick="location.href='settings.php'"><span class="icon-user"></span> My account</li><hr/>
-			<li onclick="location.href='settings.php'"><span class="icon-cog"></span> Settings</li>
+			<!-- <li onclick="location.href='settings.php'"><span class="icon-cog"></span> Settings</li> -->
 		    <li onclick="location.href='logout.php'"> <span class="icon-switch"></span> Logout</li>
 		  </div>
 		</div>
