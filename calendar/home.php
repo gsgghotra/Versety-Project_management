@@ -110,7 +110,7 @@ jQuery('#datetimepicker').datetimepicker({
     timepicker: true,
     formatDate:'d/m/Y',
  minDate:'01/10/2017',//yesterday is minimum date(for today use 0 or -1970/01/01)
- maxDate:'10/03/2021'
+ maxDate:'10/03/2025'
 });
 </script>
 <!-- Footer -->

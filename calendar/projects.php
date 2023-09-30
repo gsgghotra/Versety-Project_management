@@ -8,7 +8,7 @@ require_once 'aps/header.php';
 <style>
 	.left_container_project{
 	float: left;
-    width: 26%;
+    width: 20%;
     height: 100%;
     position: fixed;
     border: 1px solid #e2e2e2;
@@ -486,7 +486,7 @@ jQuery('#datetimepicker').datetimepicker({
     timepicker: true,
     formatDate:'d/m/Y',
  minDate:'01/10/2017',//yesterday is minimum date(for today use 0 or -1970/01/01)
- maxDate:'10/03/2021'
+ maxDate:'10/03/2025'
 });
 
 function log_auth(){
@@ -501,10 +501,11 @@ function log_auth(){
 							 $('#p_name').val('');
 							 $('#datetimepicker').val('');
 					if (data =='success'){
-    			$("#project_list").load(" #project_list > *");
-    			$("#activity_list").load(" #activity_list > *");
+						$("#project_list").load(" #project_list > *");
+						$("#activity_list").load(" #activity_list > *");
 					} else {
-				alert('Error passing the values.');
+						console.log('Error passing the values.');
+						console.log(data);
 					}
 					});
 	}
