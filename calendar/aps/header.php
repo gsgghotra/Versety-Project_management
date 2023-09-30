@@ -94,11 +94,11 @@
 		<div class="dropdown">
 		<button onclick="myFunction()" class="dropbtn"><span onclick="myFunction()" class="icon-list"></span> Menu</button>
 		  <div id="myDropdown" class="dropdown-content">
-			<li onclick="location.href='allevents.php'"><span class="icon-list"></span> List</li>
+			<li onclick="location.href='allevents.php'"><span class="icon-list2"></span> List</li>
 			<li onclick="location.href='projects.php'"><span class="icon-calendar"></span> Projects</li><hr/>
-			<li onclick="location.href='allevents.php'"><span class="icon-newspaper"></span> Forum</li>
+			<li onclick="location.href='review.php'"><span class="icon-newspaper"></span> Forum</li>
 			<li onclick="location.href='settings.php'"><span class="icon-user"></span> My account</li><hr/>
-			<li onclick="location.href='settings.php'"><span class="icon-cog"></span> Help</li>
+			<li onclick="location.href='settings.php'"><span class="icon-cog"></span> Settings</li>
 		    <li onclick="location.href='logout.php'"> <span class="icon-switch"></span> Logout</li>
 		  </div>
 		</div>

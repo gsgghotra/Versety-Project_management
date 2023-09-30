@@ -205,7 +205,7 @@ while ($row = mysqli_fetch_assoc($getposts))
         $query_days = '-365';
         $query_ends = '-2';
       } else if($_SESSION['eFilter'] == 'All'){
-        $query_days = '-999';
+        $query_days = '-9999';
         $query_ends = '999';
       } else if($_SESSION['eFilter'] == 'Default') {
         $query_days = '-2';

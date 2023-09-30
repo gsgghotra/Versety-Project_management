@@ -1,10 +1,9 @@
 <?php require_once 'init.php'; ?>
-<?php require_once 'loginpost.php';?>
 <div id="outerrssd">
 <div class="rssd">
 		<h2>Latest Reviews</h2>
 		<div id="show">
-<div class="loader"></div>
+			<div class="loader"></div>
 		</div>
 
 </div>
