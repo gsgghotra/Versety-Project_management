@@ -5,7 +5,8 @@ Versety is a project and deadline management website originally conceived as a t
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+- [Designs](#screenshots)
+  - [System Requirements](#getting-started)
   - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -21,9 +22,23 @@ List of key features:
 - User-friendly interface.
 - Customizable settings.
 
+## ScreenShots
+
+### Login Screen
+![ScreenShot of Login Page](SSLoginScreen.png)
+
+### Home Screen
+![ScreenShot of HomePage](SSHomeScreen.png)
+
+### List View Screen
+![Screen of List View PAge](SSListView.png)
+
+### Project Screen
+![Project Screen](SSProjectView.png)
+
 ## Getting Started
 
-## System Requirements
+  ## System-Requirements
 
 Before you proceed with the installation of Versety, please ensure that your system meets the following requirements:
 
@@ -37,17 +52,18 @@ Before you proceed with the installation of Versety, please ensure that your sys
 
 Follow these steps to get Versety up and running:
 
-1. Step 1
-2. Step 2
-3. Step 3
+1. Download the code.
+2. Ensure Apache and SQL are installed.
+3. Ensure Text editor is installed to make neccessary changes.
 
 ### Usage
 
 To use Versety, follow these steps:
 
-1. Step 1
-2. Step 2
-3. Step 3
+1. Move the downloaded code into Server(Localhost) Files.
+2. Ensure you add the required DB file on SQL Server. (Not available at the moment)
+3. Access the site using Localhost and the directory name.
+4. Signup to login
 
 ## Background
 
