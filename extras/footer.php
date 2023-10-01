@@ -1,4 +1,3 @@
-
 <footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -8,9 +7,9 @@
 
 				<p class="footer-links">
 					<a href="index.php"> Home</a>
-					<a href=""> Feedback</a>
+					<a href="review.php"> Feedback</a>
 					<a href="privacy.php"> Privacy policy</a>
-					<a href="help.php"> Help</a>
+					<a href="calendar/help.php"> Help</a>
 					<a href=""> Contact us</a>
 				</p>
 
@@ -26,7 +25,7 @@
 				</div>
 				<div>
 					<i class="fa fa-phone"></i>
-					<p><a href="./index.php">Forum</a></p>
+					<p><a href="Calendar/review.php">Forum</a></p>
 				</div>
 				<div>
 					<i class="fa fa-phone"></i>

@@ -22,8 +22,19 @@
 <body>
 
 <header>
-<img src="css/forar.jpg" class="logoimg1"/>
+<!-- Nav of the body -->
+<div class="lognav">
+	 <h3><span><img src="css/versety.png" alt="logo" class="logoimg" onclick="location.href='../index.php'"/></span></h3>
+	<!---<ul>
+		<!---<li class="nav_first" onclick="location.href='index.php'"><span class="text_red"><i>VERSETY</i></span></li>
+		<li class="nav_normal" onclick="location.href='../index.php'"><span class="icon-home"></span> Home</li>
+		<li class="nav_normal" onclick="location.href='index.php'"><span class="icon-home"></span> Profile</li>
+		<li class="nav_last" onclick="location.href='logout.php'"> <span class="icon-home"></span> Logout</li>
+	</ul>
+</div>-->
+</div>
 </header>
+
 <main>
 <div id="container">
 <div class="indexcon">

@@ -23,7 +23,17 @@
 <body>
 
 <header>
-<img src="css/forar.jpg" class="logoimg1"/>
+<!-- Nav of the body -->
+<div class="lognav">
+	 <h3><span><img src="css/versety.png" alt="logo" class="logoimg" onclick="location.href='../index.php'"/></span></h3>
+	<!---<ul>
+		<!---<li class="nav_first" onclick="location.href='index.php'"><span class="text_red"><i>VERSETY</i></span></li>
+		<li class="nav_normal" onclick="location.href='../index.php'"><span class="icon-home"></span> Home</li>
+		<li class="nav_normal" onclick="location.href='index.php'"><span class="icon-home"></span> Profile</li>
+		<li class="nav_last" onclick="location.href='logout.php'"> <span class="icon-home"></span> Logout</li>
+	</ul>
+</div>-->
+</div>
 </header>
 
 <!-- Nav of the body -->
@@ -35,32 +45,33 @@
 
 <!-- MAin content of the body -->
 <main>
-<div id="containerex">
-<h2>Help - FORAR</h2>
-	<p class="btext"> 
-		<strong>Important Information:</strong> Registration is not available at the moment.</br>
-		<strong>Important Information:</strong> Review page is not available at the moment.</br>
-		<strong>Important Information:</strong> Contact us page is not available at the moment.</br>
-	</p>
-<h4>New Features</h4>
-<p class="btext">We have plenty of features lined up for Forar and we’ll have them ready for you as soon as we can. But we’re a very small company dedicated to your perfect Assignmengt Reminder, so we put first things first: server maintenance, bug-squishing and updating Forar keeps us busy. We understand your excitement, but making good things takes time. Here’s a glimpse into the near future:
-		<ul>
-		<li class="btext">Registration Form.</li>
-		<li class="btext">Email Notifications to remind the users. </li>
-		<li class="btext">Review Page. </li>
-		<li class="btext">Contact us Page. </li>
-		<li class="btext">Password and Email update page. </li>
-	</ul>
-</p>
+  <div id="containerex">
+    <h2>Help - Versety</h2>
+    <p class="btext">
+      <strong>Important Information:</strong> Registration is not available at the moment. Mobile Devices will not be able to add new events. Projects are not available on Mobile Devices</br>
+      <strong>Important Information:</strong> Registration is not available at the moment.</br>
+      <strong>Important Information:</strong> Review page is not available at the moment.</br>
+      <strong>Important Information:</strong> Contact us page is not available at the moment.</br>
+    </p>
+    <h4>New Features</h4>
+    <p class="btext">We have plenty of features lined up for Versety, and we’ll have them ready for you as soon as we can. But we’re a very small company dedicated to your perfect Assignment Reminder, so we put first things first: server maintenance, bug-squishing, and updating Versety keeps us busy. We understand your excitement, but making good things takes time. Here’s a glimpse into the near future:
+      <ul>
+        <li class="btext">Registration Form.</li>
+        <li class="btext">Email Notifications to remind the users.</li>
+        <li class="btext">Review Page.</li>
+        <li class="btext">Contact us Page.</li>
+        <li class="btext">Password and Email update page.</li>
+      </ul>
+    </p>
 
-<h4>Login Help</h4>
-<p class="btext">
- 	If you want to change your password, please logout and use forget password feature to change the password. Change password and Change Email functions are not working in the setting options. </p>
+    <h4>Login Help</h4>
+    <p class="btext">
+      If you want to change your password, please log out and use the forget password feature to change the password. Change password and Change Email functions are not working in the setting options.
+    </p>
 
+    <p class="btext">Last Edited on 2017-05-07</p>
 
-<p class="btext">Last Edited on 2017-05-07</p>
-
-</div>
+  </div>
 </main>
 
 <!-- Footer -->

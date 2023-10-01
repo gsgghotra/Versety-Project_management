@@ -34,14 +34,12 @@
 
 .dropdown {
     position: relative;
-    display: inline-block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     border: 1px solid #025290;
-    margin-left: -65px;
     margin-top: 1px;
     background-color: #f1f1f1;
     min-width: 145px;
