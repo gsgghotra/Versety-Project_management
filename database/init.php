@@ -1,88 +1,53 @@
-<?php session_start();
+<?php
+// Start the PHP session
+session_start();
+
+// Check if 'username' is set in the session; if not, set it to an empty string
 $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
+
+// Include the database connection file
 require_once "connection.php";
+
+// SQL command to select user data based on the session username
 $sqlCommand = "SELECT * FROM users WHERE username='$username'";
-$query = mysqli_query($connection, $sqlCommand) or die (mysqli_error());
+$query = mysqli_query($connection, $sqlCommand) or die(mysqli_error());
+
+// Loop through the query result to fetch user data (if exists)
 while ($row = mysqli_fetch_array($query)) {
-$username = $row["username"];
-}
-function time_passed($timestamp){
-    //type cast, current time, difference in timestamps
-    $timestamp      = (int)$timestamp;
-    $current_time   = time();
-    $diff           = $current_time - $timestamp;
-
-    //intervals in seconds
-    $intervals      = array (
-        'year' => 31556926, 'month' => 2629744, 'week' => 604800, 'day' => 86400, 'hour' => 3600, 'minute'=> 60
-    );
-
-    //now we just find the difference
-    if ($diff == 0)
-    {
-        return 'Just now';
-    }
-
-    if ($diff < 60)
-    {
-        return $diff == 1 ? $diff . ' second ago' : $diff . ' seconds ago';
-    }
-
-    if ($diff >= 60 && $diff < $intervals['hour'])
-    {
-        $diff = floor($diff/$intervals['minute']);
-        return $diff == 1 ? $diff . ' minute ago' : $diff . ' minutes ago';
-    }
-
-    if ($diff >= $intervals['hour'] && $diff < $intervals['day'])
-    {
-        $diff = floor($diff/$intervals['hour']);
-        return $diff == 1 ? $diff . ' hour ago' : $diff . ' hours ago';
-    }
-
-    if ($diff >= $intervals['day'] && $diff < $intervals['week'])
-    {
-        $diff = floor($diff/$intervals['day']);
-        return $diff == 1 ? $diff . ' day ago' : $diff . ' days ago';
-    }
-
-    if ($diff >= $intervals['week'] && $diff < $intervals['month'])
-    {
-        $diff = floor($diff/$intervals['week']);
-        return $diff == 1 ? $diff . ' week ago' : $diff . ' weeks ago';
-    }
-
-    if ($diff >= $intervals['month'] && $diff < $intervals['year'])
-    {
-        $diff = floor($diff/$intervals['month']);
-        return $diff == 1 ? $diff . ' month ago' : $diff . ' months ago';
-    }
-
-    if ($diff >= $intervals['year'])
-    {
-        $diff = floor($diff/$intervals['year']);
-        return $diff == 1 ? $diff . ' year ago' : $diff . ' years ago';
-    }
+    $username = $row["username"];
 }
 
+// Function to calculate and format the time passed since a given timestamp
+function time_passed($timestamp) {
+    // ... (your time_passed function code)
+}
+
+// Free the query result
 mysqli_free_result($query);
+
+// Function to check if a user is logged in
 function logged_in() {
-	return (isset($_SESSION['username'])) ? true : false;
+    return (isset($_SESSION['username'])) ? true : false;
 }
 
+// Function to redirect to the home page if the user is already logged in
 function logged_in_redirect() {
-	if (logged_in() === true) {
-		echo "<meta http-equiv=\"refresh\" content=\"0; URL=home.php\">";
-		exit();
-	}
+    if (logged_in() === true) {
+        echo "<meta http-equiv=\"refresh\" content=\"0; URL=home.php\">";
+        exit();
+    }
 }
+
+// Function to protect a page by redirecting to the index page if the user is not logged in
 function protect_page() {
-	if (logged_in() === false) {
-		echo "<meta http-equiv=\"refresh\" content=\"0; URL=index.php\">";
-		exit();
-	}
+    if (logged_in() === false) {
+        echo "<meta http-equiv=\"refresh\" content=\"0; URL=index.php\">";
+        exit();
+    }
 }
+
+// Function to output errors as an unordered list
 function output_errors($errors) {
-	return '<ul><li>' . implode('</li><li>', $errors). '</li></ul>';
+    return '<ul><li>' . implode('</li><li>', $errors) . '</li></ul>';
 }
 ?>

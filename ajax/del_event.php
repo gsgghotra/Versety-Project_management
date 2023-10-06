@@ -1,4 +1,5 @@
 <?php
+// Deleting the events from user calendar
 require_once "../database/connection.php";
 	if(isset($_POST['delete'])) {
 		$checkbox = $_POST['checkbox'];
