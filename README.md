@@ -25,14 +25,14 @@ List of key features:
 ## ScreenShots
 
 ### Login Screen
-![ScreenShot of Login Page](./Screenshots/SSLoginScreen.png)
+![ScreenShot of Login Page](./website_screenshots/SSLoginScreen.png)
 ### Home Scree
-![ScreenShot of Home Page](./Screenshots/SSHomeScreen.png)
-### List View Scree
-![Screen of List View Page](./Screenshots/ScreenshotList.png)
+![ScreenShot of Home Page](./website_screenshots/SSHomeScreen.png)
+### List View Screen
+![Screen of List View Page](./website_screenshots/ScreenshotList.png)
 
 ### Project Screen
-![Project Screen](./Screenshots/ScreenshotProject.png)
+![Project Screen](./website_screenshots/ScreenshotProject.png)
 
 ## Getting Started
 
