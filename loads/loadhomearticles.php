@@ -1,4 +1,8 @@
 <?php
+
+// Not included on home page
+
+
 // Include the initialization file (assuming it sets up database connections and other necessary configurations)
 require_once '../database/init.php';
 

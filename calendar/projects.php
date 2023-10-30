@@ -456,7 +456,7 @@ require_once 'aps/header.php';
             <span class="icon-users"></span>
           </div>
           <div class="project_delbtn">
-            <span class="icon-eye2" onclick="location.href='project.php?p=<?php echo $project_id ?>'"></span>
+            <span class="icon-paste" onclick="location.href='project.php?p=<?php echo $project_id ?>'"></span>
           </div>
         </div>
 

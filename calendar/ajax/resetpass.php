@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
   $email= $_POST['email'];
   if($email!=""){
     $chkemail = "SELECT * FROM users WHERE email = '$email'";

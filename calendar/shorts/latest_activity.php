@@ -41,7 +41,7 @@ while ($row = mysqli_fetch_assoc($getactivity))
 		      <td width="100%">
 			  <div class="onuserbox">
 			  	 <p class="activity_time"><?php echo $Posted_time; ?></p>
-			  <a href="profile.php"><?php echo $activity_title; ?></a>
+			  <a href="#"><?php echo $activity_title; ?></a>
 			 
 			</div>
 			</td></tr>

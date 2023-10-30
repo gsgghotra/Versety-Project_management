@@ -1,3 +1,8 @@
+<?php require_once 'aps/init.php';
+protect_page();
+require_once 'aps/header.php';
+?>
+
 <style type="text/css">
 /* The container <div> - needed to position the dropdown content */
 .eo_dropdown {
@@ -57,10 +62,6 @@
 </style>
 
 <?php
-require_once 'aps/init.php';
-protect_page();
-require_once 'aps/header.php';
-
 if(isset($_POST['eFilter'])){
     if($_POST['eFilter']  == 1) {
     $_SESSION['eFilter'] = 'Default';

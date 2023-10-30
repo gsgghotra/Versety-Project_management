@@ -1,7 +1,7 @@
 <?php
 // Database connection parameters
 $db_host = "localhost";      // Hostname of the MySQL server
-$db_username = "root";       // MySQL username
+$db_username = "";       // MySQL username
 $db_pass = "";           // MySQL password
 $db_name = "";          // Name of the database
 

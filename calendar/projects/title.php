@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 require_once '../aps/init.php';
 protect_page();
 $projectid = $_POST['projectid'];
@@ -10,4 +10,4 @@ $projectid = $_POST['projectid'];
             $project_deadline = $row['project_deadline'];
   	echo $project_title;
 }
-  ?>
+  ?> -->

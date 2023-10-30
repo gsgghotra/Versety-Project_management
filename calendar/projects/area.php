@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 require_once '../aps/init.php';
 protect_page();
 $projectid = $_POST['projectid'];
@@ -15,4 +15,4 @@ $projectid = $_POST['projectid'];
   	echo "The project has been deleted.";
   }
 
-  ?>
+  ?> -->

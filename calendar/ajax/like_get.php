@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 $eventid = $_POST['postid'];
 $getposts = mysqli_query($connection, "SELECT * FROM posts WHERE id='$eventid'") or die(mysqli_error($connection));
 while ($row = mysqli_fetch_assoc($getposts)) {

@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 	if(isset($_POST['submit_delete'])) {
 		if(isset($_POST['checkbox'])) {
 		$checkbox = $_POST['checkbox'];

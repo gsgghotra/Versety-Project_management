@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 $re_name = $_POST['newpass'];
 $con_pass = $_POST['conpass'];
 $user_email = $_POST['uemail'];

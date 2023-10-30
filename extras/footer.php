@@ -6,8 +6,8 @@
         <!-- Footer links -->
         <p class="footer-links">
             <a href="index.php"> Home</a>
-            <a href="review.php"> Feedback</a>
-            <a href="privacy.php"> Privacy policy</a>
+            <a href="calendar/review.php"> Feedback</a>
+            <a href="calendar/privacy.php"> Privacy policy</a>
             <a href="calendar/help.php"> Help</a>
             <a href=""> Contact us</a>
         </p>

@@ -21,17 +21,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-tasks:before {
-  content: "\e905";
-}
-.icon-star:before {
+.icon-folder:before {
   content: "\e900";
-}
-.icon-eye2:before {
-  content: "\e901";
-}
-.icon-bubble:before {
-  content: "\e902";
 }
 .icon-home:before {
   content: "\e903";
@@ -41,6 +32,12 @@
 }
 .icon-paste:before {
   content: "\e92d";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-compass:before {
+  content: "\e949";
 }
 .icon-clock:before {
   content: "\e94e";
@@ -84,15 +81,9 @@
 .icon-circle-left:before {
   content: "\ea44";
 }
-.icon-user:before {
+.icon-user-plus:before {
   content: "\e973";
 }
-.icon-stats-bars:before {
-  content: "\e99c";
-}
-.icon-eye:before {
-  content: "\e9ce";
-}
-.icon-star-full:before {
-  content: "\e9d9";
+.icon-bin1:before {
+  content: "\e9ad";
 }

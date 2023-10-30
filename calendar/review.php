@@ -12,7 +12,6 @@
     <meta name="author" content="Gurjeet Singh, GsG Ghotra">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/loginauth.js"></script>
 	<!-- Specific meta tags -->
 
 	<!-- CSS LINKS -->
@@ -47,7 +46,7 @@
 <!-- Nav of the body -->
 <nav>
 	<ul>
-		<li onclick="location.href='index.php'"> Home </li>
+		<li onclick="location.href='home.php'"> Home </li>
 	</ul>
 </nav>
 

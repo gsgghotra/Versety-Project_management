@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 $loguser = $_POST['logname'];
 $logpass = $_POST['logpass'];
 if ($loguser != ''){

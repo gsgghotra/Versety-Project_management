@@ -7,8 +7,7 @@ logged_in_redirect() ?>
 		<title>FORAR</title>
 	<!-- meta tags -->
 		<meta charset="utf-8" />
-		<meta name="google-site-verification" content="4ea__HSOAAerw6glccfHFsmnReiM50dOr2M_xthyYCs" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Specific meta tags -->
 
 	<!-- CSS LINKS -->

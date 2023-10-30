@@ -33,7 +33,7 @@ function logged_in() {
 // Function to redirect to the home page if the user is already logged in
 function logged_in_redirect() {
     if (logged_in() === true) {
-        echo "<meta http-equiv=\"refresh\" content=\"0; URL=home.php\">";
+        echo "<meta http-equiv=\"refresh\" content=\"0; URL=calendar/home.php\">";
         exit();
     }
 }

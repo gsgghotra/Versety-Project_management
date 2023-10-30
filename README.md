@@ -25,16 +25,14 @@ List of key features:
 ## ScreenShots
 
 ### Login Screen
-![ScreenShot of Login Page](./ScreenShots/SSLoginScreen.png)
-
-### Home Screen
-![ScreenShot of HomePage](./ScreenShots/SSHomeScreen.png)
-
-### List View Screen
-![Screen of List View PAge](./ScreenShots/SSListView.png)
+![ScreenShot of Login Page](./Screenshots/SSLoginScreen.png)
+### Home Scree
+![ScreenShot of Home Page](./Screenshots/SSHomeScreen.png)
+### List View Scree
+![Screen of List View Page](./Screenshots/ScreenshotList.png)
 
 ### Project Screen
-![Project Screen](./ScreenShots/SSProjectView.png)
+![Project Screen](./Screenshots/ScreenshotProject.png)
 
 ## Getting Started
 
@@ -42,7 +40,7 @@ List of key features:
 
 Before you proceed with the installation of Versety, please ensure that your system meets the following requirements:
 
-- **Web Server:** You must have Apache installed and configured on your system, capable of running PHP version 5. The project was developed using PHP 5, so ensure that your web server can handle this version.
+- **Web Server:** You must have Apache installed and configured on your system, capable of running PHP version 7. The project was developed using PHP 7, so ensure that your web server can handle this version.
 
 - **Database:** Versety relies on MySQL for its database. Ensure that you have MySQL up and running on your server. 
 
@@ -72,7 +70,7 @@ The project features a sophisticated login system, implemented using jQuery, tha
 
 ## Project Status
 
-The project is still active and running; however, I stopped working on it as the base PHP language used was not up to date, and the technologies employed were not the latest and greatest, which caused efficiency issues. Considering that PHP 5 is losing support, there is not much motivation to continue working on the current codebase. However, there is potential for this project to be revived and modernized with technologies like React, which could significantly enhance its performance and usability.
+The project is still active and running; Considering that PHP 7 is losing support, there is potential for this project to be modernized with technologies like React, which could significantly enhance its performance and usability.
 
 ## Development and Usage
 

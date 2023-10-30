@@ -12,6 +12,6 @@ require_once 'database/init.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Link to your custom CSS files -->
-	<link rel="stylesheet" type="text/css" href="Calendar/css/style.css">
-	<link type="text/css" rel="stylesheet" href="Calendar/css/icon/style.css"/>
+	<link rel="stylesheet" type="text/css" href="calendar/css/style.css">
+	<link type="text/css" rel="stylesheet" href="calendar/css/icon/style.css"/>
 </head>

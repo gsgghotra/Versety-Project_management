@@ -53,7 +53,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    min-width: 145px;
+    min-width: 78%;
     font-size: 12px;
 }
 .dropdown-content span{
@@ -88,7 +88,7 @@
    		</form> -->
 <nav>
 	<ul>
-		<li onclick="location.href='index.php'"><span class="icon-home"></span> Home</li>
+		<li onclick="location.href='home.php'"><span class="icon-home"></span> Home</li>
 		<div class="dropdown">
 		<button onclick="myFunction()" class="dropbtn"><span onclick="myFunction()" class="icon-list"></span> Menu</button>
 		  <div id="myDropdown" class="dropdown-content">

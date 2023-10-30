@@ -27,8 +27,8 @@ function log_auth(){
 	} else {
 		$.post('ajax/login_auth.php',
 					{logname: $('#log_u_name').val(), logpass: $('#log_u_pass').val()},
-					 function(data){
-							 $('#log_u_pass').val('');
+					function(data){
+							$('#log_u_pass').val('');
 					if (data =='success'){
 				log_u_pass();
 					} else {
@@ -51,7 +51,7 @@ function log_u_empty() {
 function log_u_pass() {
 	$(".authaction").hide();
 	$(".logalert").hide();
-	 location.href = 'home.php';
+	location.href = 'calendar/home.php';
 }
 function log_u_error() {
 	$(".logalert").show();

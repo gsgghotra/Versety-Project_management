@@ -34,7 +34,7 @@ function review_auth(){
 		review_a_empty();
 	} else {
 		$(".authaction").hide();
-		$.post('ajax/reviewsubmit.php',
+		$.post('ajax/submitreview.php',
 					{reviewname: $('#review_u_name').val(), reviewpass: $('#review_u_pass').val()},
 					 function(data){
 						 $('#review_u_name').val('');

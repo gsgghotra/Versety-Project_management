@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 $projectname = $_POST['projectname'];
 $projectdate = $_POST['projectdate'];
 $userid = $_POST['userid'];

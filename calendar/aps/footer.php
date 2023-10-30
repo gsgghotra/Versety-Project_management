@@ -7,8 +7,8 @@
 
 
 				<p class="footer-links">
-					<a href="../index.php"> Home</a>
-					<a href=""> Feedback</a>
+					<a href="home.php"> Home</a>
+					<a href="review.php"> Feedback</a>
 					<a href="privacy.php"> Privacy policy</a>
 					<a href="help.php"> Help</a>
 					<a href=""> Contact us</a>

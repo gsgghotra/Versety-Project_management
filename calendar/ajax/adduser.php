@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 
 $sharewith = $_POST['share_with'];
 $userid = $_POST['userid'];

@@ -1,5 +1,5 @@
 <?php
-require_once "../aps/connect_i.php";
+require_once "../../database/connection.php";
 $reguser = $_POST['regname'];
 $regpass = $_POST['regpass'];
 $regemail = $_POST['regemail'];

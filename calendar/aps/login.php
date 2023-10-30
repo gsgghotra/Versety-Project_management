@@ -51,7 +51,7 @@ function log_u_empty() {
 function log_u_pass() {
 	$(".authaction").hide();
 	$(".logalert").hide();
-	 location.href = 'home.php';
+	 location.href = 'calendar/home.php';
 }
 function log_u_error() {
 	$(".logalert").show();

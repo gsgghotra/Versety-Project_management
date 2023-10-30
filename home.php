@@ -2,16 +2,12 @@
 // Include the necessary PHP files
 require_once "extras/head.php";
 protect_page();
-?>
-
-<!DOCTYPE html>
-<html>
-
-<?php
-// Include the header file
 require_once "extras/header.php";
 ?>
 
+<!-- NOT IN USE - Had intro to the site with articles loading -->
+<!DOCTYPE html>
+<html>
 <body>
     <main>
         <div id="container">
@@ -51,14 +47,16 @@ require_once "extras/header.php";
         </div>
     </main>
 
+    Home Page changed to Calendar Home Page
+<!-- 
     <script type="text/javascript">
         // JavaScript code to redirect to the Calendar page after 10 seconds
         function Redirect() {
-            window.location.href = ("Calendar/index.php");
+            window.location.href = ("calendar/index.php");
         }
 
         document.write("Please wait; you will be redirected in 10 seconds");
         setTimeout('Redirect(), 10000');
-    </script>
+    </script> -->
 
 </html>

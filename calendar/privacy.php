@@ -23,8 +23,8 @@
 	 <h3><span><img src="css/versety.png" class="logoimg" onclick="location.href='index.php'"/></span></h3>
 	<ul>
 		<!---<li class="nav_first" onclick="location.href='index.php'"><span class="text_red"><i>VERSETY</i></span></li>-->
-		<li class="nav_normal" onclick="location.href='../index.php'">Home</li>
-		<li class="nav_last" onclick="location.href='logout.php'">Calendar</li>
+		<li class="nav_normal" onclick="location.href='home.php'">Home</li>
+		<li class="nav_last" onclick="location.href='calendar/home.php'">Calendar</li>
 	</ul>
 </div>
 </header>

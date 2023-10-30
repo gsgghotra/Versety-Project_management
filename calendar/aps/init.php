@@ -1,8 +1,10 @@
 <?php session_start();
+require_once "../database/connection.php";
 $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
-require_once "connect_i.php";
+
 $sqlCommand = "SELECT * FROM users WHERE username='$username'";
 $query = mysqli_query($connection, $sqlCommand) or die (mysqli_error());
+
 while ($row = mysqli_fetch_array($query)) {
 $u_id = $row["id"];
 $username = $row["username"];
